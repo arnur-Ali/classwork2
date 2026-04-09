@@ -1,0 +1,227 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <title>Document</title>
+  </head>
+  <body class="bg-zinc-900">
+    <header
+      class="pb-10 bg-black text-white p-10 w-auto h-28 ml-3 mr-3 rounded-xl border-4 border-zinc-500 flex flex-row justify-between"
+    >
+      <div class="leftHeader flex flex-row gap-10 items-center justify-center">
+        <div
+          class="bg-red-600 h-12 w-12 flex justify-center items-center text-xl rounded-xl border border-red-500 text-red-500"
+        >
+          A
+        </div>
+        <h1 style="font-size: 30px"><b>Cogni</b> Track</h1>
+      </div>
+      <div class="rightHeader flex fle-row gap-4 items-center justify-center">
+        <button class="bg-red-600 p-4 rounded-xl text-white-400">
+          <b>+ Add Item</b>
+        </button>
+        <div class="bg-zinc-600 w-1 h-12 mr-5"></div>
+        <div
+          class="bg-red-950 h-12 w-12 flex justify-center items-center text-xl rounded-xl border border-red-500 text-red-500"
+        >
+          A
+        </div>
+      </div>
+    </header>
+    <div class="middle flex flex-col sm:grid sm:grid-cols-3 sm:grid-rows-2 gap-4 mt-10 pl-10 pr-10">
+      <div
+        class="box1 row-span-2 bg-black p-10 text-white rounded-xl border-4 border-zinc-500"
+      >
+        <div class="row flex flex-row justify-between">
+          <h1 class="" style="font-size: 30px"><b>Hours Studied</b></h1>
+          <button class="bg-zinc-800 p-4 rounded-xl text-zinc-400">
+            Last 15 Days
+          </button>
+        </div>
+        <img
+          class="mt-20"
+          src="Снимок экрана — 2026-04-07 в 09.10.35.png"
+          alt=""
+        />
+      </div>
+      <div
+        class="box2 bg-black p-5 text-white rounded-xl border-4 border-zinc-500"
+      >
+        <div class="row flex flex-row">
+          <div class="bg-red-600 w-1 h-40 mr-5"></div>
+          <div class="column flex flex-col gap-3 mr-56">
+            <h2 class="text-zinc-400" style="font-size: 25px">
+              Total Hours Studied
+            </h2>
+            <h1 style="font-size: 49px"><b>57.4h</b></h1>
+          </div>
+          <div
+            class="bg-red-950 h-12 w-12 flex justify-center items-center text-xl rounded-xl border border-red-500 text-red-500"
+          >
+            A
+          </div>
+        </div>
+      </div>
+      <div
+        class="box3 bg-black p-5 text-white rounded-xl border-4 border-zinc-500"
+      >
+        <div class="row flex flex-row">
+          <div class="bg-red-600 w-1 h-40 mr-5"></div>
+          <div class="column flex flex-col gap-3 mr-56">
+            <h2 class="text-zinc-400" style="font-size: 25px">
+              Completion Rate
+            </h2>
+            <h1 style="font-size: 49px"><b>54%</b></h1>
+          </div>
+          <div
+            class="bg-red-950 h-12 w-12 flex justify-center items-center text-xl rounded-xl border border-red-500 text-red-500"
+          >
+            A
+          </div>
+        </div>
+      </div>
+      <div
+        class="box4 bg-black p-5 text-white rounded-xl border-4 border-zinc-500"
+      >
+        <div class="row flex flex-row">
+          <div class="bg-red-600 w-1 h-40 mr-5"></div>
+          <div class="column flex flex-col gap-3 mr-72">
+            <h2 class="text-zinc-400" style="font-size: 25px">Total Studies</h2>
+            <h1 style="font-size: 49px"><b>13</b></h1>
+          </div>
+          <div
+            class="bg-red-950 h-12 w-12 flex justify-center items-center text-xl rounded-xl border border-red-500 text-red-500"
+          >
+            A
+          </div>
+        </div>
+      </div>
+      <div
+        class="box5 bg-black pl-10 pt-5 text-white rounded-xl border-4 border-zinc-500"
+      >
+        <div class="row flex flex-row">
+          <div class="column flex flex-col pr-28">
+            <h2 class="text-zinc-400 pb-5" style="font-size: 25px">
+              Most Studied Category
+            </h2>
+            <h1 style="font-size: 49px"><b>Programming</b></h1>
+          </div>
+          <div
+            class="bg-red-950 h-12 w-12 flex justify-center items-center text-xl rounded-xl border border-red-500 text-red-500"
+          >
+            A
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="overfl-x-auto overflow-y-hidden overflow-hidden flex-shrink-0">
+    <div class="bottom bg-black m-10 rounded-xl p-10 w-[600px]">
+      <div class="bottomtop text-white mb-24">
+        <div class="row flex flex-col-reverse sm:flex sm:flex-row justify-between items-end p-10">
+          <div class="col flex flex-col">
+            <h1 class="font-bold text-5xl">Study Sessions</h1>
+            <h4 class="text-2xl text-zinc-500 mt-5">5 Last Sessions</h4>
+          </div>
+          <div class="col">
+            <h4 class="text-red-500 text-xl">See More</h4>
+          </div>
+        </div>
+      </div>
+      <div class="bottomBot flex flex-col">
+        <div class="container">
+          <div
+            class="line text-white bg-zinc-700 h-14 rounded-xl px-6 grid grid-cols-4 items-center font-semibold"
+          >
+            <div>ITEM</div>
+            <div>CATEGORY</div>
+            <div>TIME STUDIED</div>
+            <div>COMPLETED</div>
+          </div>
+          <div
+            class="line text-white bg-zinc-900 h-14 rounded-xl px-6 grid grid-cols-4 items-center"
+          >
+            <div>React Fundamentals</div>
+            <div
+              class="p-1 pl-3 bg-blue-300 w-[140px] rounded-3xl text-blue-950 font-bold border-2 border-blue-950"
+            >
+              Programming
+            </div>
+            <div>134 Min</div>
+            <div
+              class="p-1 pl-3 bg-orange-100 w-[120px] rounded-xl text-orange-700 font-bold border-2 border-orange-700"
+            >
+              In Progress
+            </div>
+          </div>
+          <div
+            class="line text-white bg-zinc-800 h-14 rounded-xl px-6 grid grid-cols-4 items-center"
+          >
+            <div>React Fundamentals</div>
+            <div
+              class="p-1 pl-3 bg-purple-200  sm:w-[135px] rounded-3xl text-purple-700 font-bold border-2 border-purple-700"
+            >
+              Mathematics
+            </div>
+            <div>225 Min</div>
+            <div
+              class="p-1 pl-3 bg-orange-100 w-[120px] rounded-xl text-orange-700 font-bold border-2 border-orange-700"
+            >
+              In Progress
+            </div>
+          </div>
+          <div
+            class="line text-white bg-zinc-900 h-14 rounded-xl px-6 grid grid-cols-4 items-center"
+          >
+            <div>React Fundamentals</div>
+            <div
+              class="p-1 pl-3 bg-purple-200 w-[135px] rounded-3xl text-purple-700 font-bold border-2 border-purple-700"
+            >
+              Mathematics
+            </div>
+            <div>25 Min</div>
+            <div
+              class="pl-3 p-1 text-wrap bg-orange-100 w-[150px] rounded-xl text-red-700 font-bold border-2 border-red-700"
+            >
+              Not Completed
+            </div>
+          </div>
+          <div
+            class="line text-white bg-zinc-800 h-14 rounded-xl px-6 grid grid-cols-4 items-center"
+          >
+            <div>React Fundamentals</div>
+            <div
+              class="p-1 pl-3 bg-green-200 w-[105px] rounded-3xl text-green-700 font-bold border-2 border-green-700"
+            >
+              Language
+            </div>
+            <div>145 Min</div>
+            <div
+              class="p-1 pl-3 bg-orange-100 w-[120px] rounded-xl text-green-700 font-bold border-2 border-green-700"
+            >
+              Completed
+            </div>
+          </div>
+          <div
+            class="line text-white bg-zinc-900 h-14 rounded-xl px-6 grid grid-cols-4 items-center"
+          >
+            <div>React Fundamentals</div>
+            <div
+              class="p-1 pl-3 bg-blue-300 w-[140px] rounded-3xl text-blue-950 font-bold border-2 border-blue-950"
+            >
+              Programming
+            </div>
+            <div>452 Min</div>
+            <div
+              class="p-1 pl-3 bg-orange-100 w-[120px] rounded-xl text-green-700 font-bold border-2 border-green-700"
+            >
+              Completed
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    </div>
+  </body>
+</html>
